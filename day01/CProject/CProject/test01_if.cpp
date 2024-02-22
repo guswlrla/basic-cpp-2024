@@ -15,11 +15,11 @@ int main()
 	{
 		cout << "Bingo" << endl;
 	}
-	else if (inKey > 7) 
+	if (inKey > 7) 
 	{
 		cout << "Down" << endl;
 	}
-	else if (inKey < 7)
+	if (inKey < 7)
 	{
 		cout << "Up" << endl;
 	}
