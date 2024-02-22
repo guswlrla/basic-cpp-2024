@@ -15,22 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test01_defaultVal.cpp">
+    <ClCompile Include="test07_reference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test02_inlineFunc.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test03_nameSp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test04_variable.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test05_pointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test06_swap.cpp">
+    <ClCompile Include="test09.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

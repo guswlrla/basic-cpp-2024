@@ -1,7 +1,6 @@
 // date : 2024-02-22
 // desc : 매개변수 디폴트 값
 
-/*
 // Default Value1.cpp 예제
 using namespace std;
 
@@ -19,9 +18,7 @@ int main(void)
 	cout << Adder(3, 5) << endl; //  두 개의 입력이 있음 -> 매개변수 디폴트 값 적용x
 	return 0;
 }
-*/
 
-/*
 // Default Value2.cpp 예제
 using namespace std;
 
@@ -41,7 +38,6 @@ int Adder(int num1, int num2) // 함수 정의(사용자 함수)
 {
 	return num1 + num2;
 }
-*/
 
 /*
   1. 클래스 안에 들어가는 함수를 '메서드'라고 부른다.*****
