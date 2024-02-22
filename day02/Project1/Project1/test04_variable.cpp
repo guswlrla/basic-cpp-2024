@@ -1,7 +1,6 @@
 // date : 2024-02-22
 // desc : 지역변수, 전역변수
 
-/*
 #include <iostream>
 
 using namespace std;
@@ -31,7 +30,6 @@ void func()
 	global1 = 10;
 	val = 10;
 }
-*/
 
 /*
   1. 전역변수 : 프로그램 전체에서 사용가능

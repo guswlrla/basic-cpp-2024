@@ -1,7 +1,6 @@
 // date : 2024-02-22
 // desc : 이름공간(namespace)
 
-/*
 // NameSp1.cpp 예제
 #include <iostream>
 
@@ -27,9 +26,7 @@ int main(void)
 	ProgComImpl::SimpleFunc();
 	return 0;
 }
-*/
 
-/*
 // NameSp2.cpp 예제
 #include <iostream>
 
@@ -59,9 +56,7 @@ void ProgComImpl::SimpleFunc(void)
 {
 	std::cout << "ProgCom이 정의한 함수" << std::endl;
 }
-*/
 
-/*
 // UsingDcl2.cpp 예제
 #include <iostream>
 
@@ -79,9 +74,7 @@ int main()
 	cout << ' ' << 3.14 << endl;
 	return 0;
 }
-*/
 
-/*
 // NameAlias.cpp 예제
 #include <iostream>
 
@@ -109,7 +102,6 @@ int main()
 	cout << ABC::num2 << endl;
 	return 0;
 }
-*/
 
 
 /*

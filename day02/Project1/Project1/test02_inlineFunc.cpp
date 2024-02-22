@@ -1,7 +1,6 @@
 // date : 2024-02-22
 // desc : 인라인 함수
 
-/*
 #include <iostream>
 #define SQUARE(x) ((x)*(x)) // 매크로 함수
 
@@ -11,9 +10,7 @@ int main()
 	cout << SQUARE(5) << endl;
 	return 0;
 }
-*/
 
-/*
 // inlineFunc.cpp 예제
 #include <iostream>
 
@@ -30,7 +27,6 @@ int main()
 	cout << SQUARE(12) << endl;
 	return 0;
 }
-*/
 
 /*
   1. 매크로 함수
