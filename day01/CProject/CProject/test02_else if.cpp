@@ -3,26 +3,26 @@
 
 #include <iostream>
 
-using namespace std;
+using namespace std; // std 네임스페이스의 모든 것을 사용하겠다.
 
-int main() 
+int main()
 {
 	int inKey;
-	cout << "정수를 입력하세요. > ";
-	cin >> inKey;
+	cout << "숫자 하나를 입력하세요." << endl;
+	cin >> inKey; // 입력된 값을 inkey에 저장
 
 	if (inKey == 7) 
 	{
-		cout << "빙고" << endl;
+		cout << "Bingo" << endl;
 	}
-	else if (inKey > 7) {
-		cout << "숫자가 큽니다." << endl;
+	else if (inKey > 7) 
+	{
+		cout << "Down" << endl;
 	}
-	else if (inKey < 7) {
-		cout << "숫자가 작습니다." << endl;
+	else if (inKey < 7)
+	{
+		cout << "Up" << endl;
 	}
-	else cout << "잘못 입력하셨습니다." << endl;
 
 	return 0;
-
 }
