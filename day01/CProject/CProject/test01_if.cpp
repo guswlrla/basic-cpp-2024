@@ -1,4 +1,4 @@
-// date : 2024-02-22
+// date : 2024-02-21
 // desc : if문
 
 #include <iostream>
@@ -13,15 +13,15 @@ int main()
 
 	if (inKey == 7) // if(조건식) { ... 실행문    }
 	{
-		cout << "빙고" << endl;
+		cout << "Bingo" << endl;
 	}
 	else if (inKey > 7) 
 	{
-		cout << "숫자가 큽니다." << endl;
+		cout << "Down" << endl;
 	}
 	else if (inKey < 7)
 	{
-		cout << "숫자가 작습니다." << endl;
+		cout << "Up" << endl;
 	}
 
 	return 0;
