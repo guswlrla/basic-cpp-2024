@@ -2,15 +2,21 @@
 
 // FileDivi.h  헤더파일 : 선언
 
-class AClass
+using namespace std;
+
+class StudentClass
 {
 private:
-	int num;
+	char name[20];
+	int age;
+	char job[20];
 
 public: // 접근제어지시자
-	AClass(int anum) // 생성자 : 초기화 담당
+	StudentClass(char *std_name, int std_age, char *std_job ) // 생성자 : 초기화 담당
 	{
-		num = anum;
+		name = std_name;
+		age = std_age;
+		job = std_job;
 	}
 
 	void AInfo()
