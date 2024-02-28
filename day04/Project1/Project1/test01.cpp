@@ -2,20 +2,20 @@
 // desc : 
 
 
-// FruitSaleSim1.cpp ¿¹Á¦
+// FruitSaleSim1.cpp ì˜ˆì œ
 #include <iostream>
 
 using namespace std;
 
 class FruitSeller
 {
-private: // ¸â¹öº¯¼ö
+private: // ë©¤ë²„ë³€ìˆ˜
 	int APPLE_PRICE;
 	int numOfApples;
 	int myMoney;
 
-public: // ¸â¹öÇÔ¼ö
-	void InitMembers(int price, int num, int money) // »ı¼ºÀÚ ±â´É°ú °°À½(°´Ã¼¸¦ »ı¼ºÇÏ°í ÃÊ±âÈ­)
+public: // ë©¤ë²„í•¨ìˆ˜
+	void InitMembers(int price, int num, int money) // ìƒì„±ì ê¸°ëŠ¥ê³¼ ê°™ìŒ(ê°ì²´ë¥¼ ìƒì„±í•˜ê³  ì´ˆê¸°í™”)
 	{
 		APPLE_PRICE = price;
 		numOfApples = num;
@@ -23,17 +23,17 @@ public: // ¸â¹öÇÔ¼ö
 	}
 	int SaleApples(int money)
 	{
-		int num = money / APPLE_PRICE; // ÆÇ¸Å°³¼ö
-		numOfApples -= num; // ³²Àº »ç°ú°³¼ö
-		myMoney += money; // ¹ú¾îµéÀÎ µ·, myMoney = myMoney + money;
+		int num = money / APPLE_PRICE; // íŒë§¤ê°œìˆ˜
+		numOfApples -= num; // ë‚¨ì€ ì‚¬ê³¼ê°œìˆ˜
+		myMoney += money; // ë²Œì–´ë“¤ì¸ ëˆ, myMoney = myMoney + money;
 		return num;
 	}
 	void ShowSalesResult()
 	{
-		cout << "³²Àº »ç°ú : " << numOfApples << endl;
-		cout << "ÆÇ¸Å ¼öÀÍ : " << myMoney << endl << endl;
+		cout << "ë‚¨ì€ ì‚¬ê³¼ : " << numOfApples << endl;
+		cout << "íŒë§¤ ìˆ˜ìµ : " << myMoney << endl << endl;
 	}
-}; // Å¬·¡½º ¹üÀ§¸¦ ³ªÅ¸³¾ ¶§ -> ¼¼¹ÌÄİ·Ğ
+}; // í´ë˜ìŠ¤ ë²”ìœ„ë¥¼ ë‚˜íƒ€ë‚¼ ë•Œ -> ì„¸ë¯¸ì½œë¡ 
 
 class FruitBuyer
 {
@@ -53,8 +53,8 @@ public:
 	}
 	void ShowBuyResult()
 	{
-		cout << "ÇöÀç ÀÜ¾× : " << myMoney << endl;
-		cout << "»ç°ú °³¼ö : " << numOfApples << endl << endl;
+		cout << "í˜„ì¬ ì”ì•¡ : " << myMoney << endl;
+		cout << "ì‚¬ê³¼ ê°œìˆ˜ : " << numOfApples << endl << endl;
 	}
 };
 
@@ -64,11 +64,11 @@ int main()
 	seller.InitMembers(1000, 20, 0);
 	FruitBuyer buyer;
 	buyer.InitMembers(5000);
-	buyer.BuyApples(seller, 2000); // °úÀÏÀÇ ±¸¸Å
+	buyer.BuyApples(seller, 2000); // ê³¼ì¼ì˜ êµ¬ë§¤
 
-	cout << "°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÈ²" << endl;
+	cout << "ê³¼ì¼ íŒë§¤ìì˜ í˜„í™©" << endl;
 	seller.ShowSalesResult();
-	cout << "°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÈ²" << endl;
+	cout << "ê³¼ì¼ êµ¬ë§¤ìì˜ í˜„í™©" << endl;
 	buyer.ShowBuyResult();
 	return 0;
 }

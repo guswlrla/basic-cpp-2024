@@ -15,46 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test01_ReferenceMember.cpp">
+    <ClCompile Include="ShallowCopyError.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test02_PrivateConstructor.cpp">
+    <ClCompile Include="복사생성자호출시점.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test03_Destructor.cpp">
+    <ClCompile Include="ReturnObjCopycon.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="newOperator.cpp">
+    <ClCompile Include="IKnowTempObj.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ObjArr.cpp">
+    <ClCompile Include="ReturnObjDeadTime.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ObjPtrArr.cpp">
+    <ClCompile Include="ConstObject.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="객체배열.cpp">
+    <ClCompile Include="ConstOverloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PointerThis.cpp">
+    <ClCompile Include="MyFriendClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="UsefulThisPtr.cpp">
+    <ClCompile Include="MyFriendFunction.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SelfRef.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ClassInit.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="copyConstruct.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="copyConstruct02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="copyConstruct03.cpp">
+    <ClCompile Include="CComStatic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
