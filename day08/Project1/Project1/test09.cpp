@@ -42,6 +42,8 @@ public:
 
 int main(void)
 {
+	// 상속관계에 있어서 객체포인터는 조심해야 함
+	// 부모타입의 객체포인터로 자식객체를 가리키는 경우(다형성) 조심!!
 	First* ptr = new Second("simple", "complex");
 	delete ptr;
 	return 0;
