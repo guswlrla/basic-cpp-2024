@@ -1,54 +1,30 @@
 // date : 2024-02-21
-// desc : 
+// desc : 계산기
 
 #include <iostream>
 
 using namespace std;
 
-void MyFunc()
-{
-	cout << "MyFunc(void) called" << endl;
-}
 
-void MyFunc(char c)
-{
-	cout << "MyFunc(char c) called" << endl;
-}
-
-void MyFunc(int a, int b)
-{
-	cout << "MyFunc(int a, int b) called" << endl;
-}
-
-int main(void)
-{
-	MyFunc();
-	MyFunc('A');
-	MyFunc(12, 13);
-	return 0;
-}
-
-/*
-// 계산기
-int add(int a, int b)
+int add(int a, int b) // 두 숫자의 합을 계산하는 함수
 {
 	result = a + b
-		return result;
+	return result;
 }
-int minus(int a, int b)
+int minus(int a, int b) // 두 숫자의 차를 계산하는 함수
 {
 	result = a - b
-		return result;
+	return result;
 }
-int multi(int a, int b)
+int multiply(int a, int b) // 두 숫자의 곱을 계산하는 함수
 {
 	result = a * b
-		return result;
+	return result;
 }
-float divide(int a, int b)
+float divide(int a, int b) // 두 숫자의 나눗셈을 계산하는 함수
 {
 	result = a / b
-		return result;
+	return result;
 }
 
 int main() {
@@ -56,6 +32,7 @@ int main() {
 	int num2;
 	char op;
 
+	// 사용자로부터 두 개의 숫자 입력 받기
 	cout << "첫번째 정수 입력 > ";
 	cin >> num1;
 
@@ -88,4 +65,3 @@ int main() {
 
 	return 0;
 }
-*/

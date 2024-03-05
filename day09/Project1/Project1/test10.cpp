@@ -35,8 +35,8 @@ int main(void)
 	First fcpy;
 	Second ssrc(333, 444);
 	Second scpy;
-	fcpy = fsrc;
-	scpy = ssrc;
+	fcpy = fsrc; // 디폴트 대입연산자 호출(멤버 대 멤버 대입) : 디폴트 복사생성자와 비슷함
+	scpy = ssrc; // 명시적으로 작성한 대입연산자 호출
 	fcpy.ShowData();
 	scpy.ShowData();
 
