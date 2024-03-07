@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test01.cpp">
+    <ClCompile Include="test01_ConvToObject.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test02.cpp">
+    <ClCompile Include="test02_ConvToPrimitive.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test03.cpp">
+    <ClCompile Include="test03_String.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="test04.cpp">
@@ -30,7 +30,7 @@
     <ClCompile Include="test05.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test06.cpp">
+    <ClCompile Include="test06_template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="test07.cpp">
@@ -42,13 +42,13 @@
     <ClCompile Include="test09.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test10_SmartPointer.cpp">
+    <ClCompile Include="어제했던 코딩문제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test11.cpp">
+    <ClCompile Include="어제했던 코딩문제2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test12.cpp">
+    <ClCompile Include="나연이코드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

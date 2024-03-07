@@ -2,6 +2,10 @@
   5명의 이름과 국, 영, 수 3과목을 입력받아 
   학생별 총점과 평균, 과목별 총점과 평균을 구하시오.
 */
+#include <iostream>
+#define _CRT_SECURE_NO_WARNINGS
+
+using namespace std;
 
 class Grade
 {
