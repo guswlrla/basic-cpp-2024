@@ -55,7 +55,7 @@ public:
 
 int main()
 {
-	// Grade* gradeAry[3]; // 객체 포인터배열
+	Grade* gradeAry[3]; // 객체 포인터배열
 
 	int kosum = 0;
 	int engsum = 0;
