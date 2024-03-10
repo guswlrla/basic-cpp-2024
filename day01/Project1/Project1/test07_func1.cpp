@@ -1,5 +1,5 @@
 // date : 2024-02-21
-// desc : 함수
+// desc : 함수정의, 호출
 
 /*
 #include <iostream> // 헤더파일 -> 무조건 쓰기

@@ -1,6 +1,8 @@
+// date : 2024-02-21
+// desc : 변수
+
 #include <iostream>
 
-/*
 int global = 100; // 전역변수
 
 void func() {
@@ -8,9 +10,7 @@ void func() {
 	a = 100;
 	global = 200;
 }
-*/
 
-/*
 int main() {
   int val; // 메모리 공간(RAM)에 int 크기로 저장공간을 할당받고 val 이름으로 사용한다.
   std::cout << "숫자입력 : ";
@@ -19,7 +19,6 @@ int main() {
   std::cout << "입력한 숫자는 " << val << "입니다." << std::endl;
   return 0;
 }
-*/
 
 /*
 int main(void)
@@ -43,27 +42,31 @@ else
 std::cout << "두 수 사이의 정수 합 : " << result << std::endl;
 return 0;
 }
+
+
+#include <iostream>
+
+int main(void) 
+{
+	char name[100];
+	char lang[200];
+
+	std::cout << "What is your name? => "; 
+	std::cin >> name;
+
+	std::cout << "좋아하는 Program => ";
+	std::cin >> lang;
+
+	std::cout << "My name is " << name << "입니다 \n";
+	std::cout << "좋아하는 Program is " << lang << "입니다" << std::endl;
+	return 0; // 프로그램의 정상 종료를 나타냄.
+}
 */
 
-// 전역변수 : 소속되어 있지 않기에 모든 프로그램에서 사용가능
-// 지역변수 : 선언 되어진 범위 안에서 사용 가능(static 영역에)
-
-/* 
-제어문
-1. 선택제어문
-	- if, switch
-
-2. 반복제어문
-	- for, while
-	*for(초기식; 조건식; 증감식;) {
-		1. 초기식을 가지고 조건식을 따진다.
-		2. 참이면 for문의 실행문을 실행하고
-		3. 증감식을 실행한다.
-		4. 조건식을 따지고
-		2.
-		3.
-		4.
-		2.
-		...
-	 }
+/* 정리
+  1. 전역변수 : 소속되어 있지 않기에 모든 프로그램에서 사용가능
+  2. 지역변수 : 선언 되어진 범위 안에서 사용 가능(static 영역에)
+  3. 전역변수는 기본적으로 0이 셋팅
+  4. 전역변수를 써도 가능하지만, 웬만하면 쓰지 x -> 데이터의 오염
+  5. 변수의 타입이 같으면 쉼표로 연결 가능
 */
