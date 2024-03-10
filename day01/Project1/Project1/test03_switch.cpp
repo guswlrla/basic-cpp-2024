@@ -1,5 +1,5 @@
 // date : 2024-02-21
-// desc : switchë¬¸
+// desc : switch¹®
 
 #include <iostream>
 
@@ -8,28 +8,28 @@ using namespace std;
 int main()
 {
 	int inKey;
-	cout << "ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”. > ";
+	cout << "¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. > ";
 	cin >> inKey;
 
 	switch (inKey) {
 	case 1:
-		cout << "1ìž…ë‹ˆë‹¤." << endl;
+		cout << "1ÀÔ´Ï´Ù." << endl;
 		break;
 	case 2:
-		cout << "2ìž…ë‹ˆë‹¤." << endl;
+		cout << "2ÀÔ´Ï´Ù." << endl;
 		break;
 	case 3:
-		cout << "3ìž…ë‹ˆë‹¤." << endl;
+		cout << "3ÀÔ´Ï´Ù." << endl;
 		break;
 	default:
-		cout << "ì´ë„ì €ë„ ì•„ë‹™ë‹ˆë‹¤." << endl;
+		cout << "ÀÌµµÀúµµ ¾Æ´Õ´Ï´Ù." << endl;
 		break;
 	}
 
 	return 0;
 }
 
-/* ì •ë¦¬
-  1. break : caseì— breakë¬¸ ê¼­ ì‚¬ìš©!!, break ì—†ì–´ì§€ë©´ ë‹¤ìŒ case ì¶œë ¥ê°’ë„ ë‚˜ì˜´
-  2. default : ìœ„ì— ìžˆëŠ” ìˆ«ìž ì´ì™¸ì— ìˆ«ìžë¥¼ ì ì„ ë•Œ ì”€
+/* Á¤¸®
+  1. break : case¿¡ break¹® ²À »ç¿ë!!, break ¾ø¾îÁö¸é ´ÙÀ½ case Ãâ·Â°ªµµ ³ª¿È
+  2. default : À§¿¡ ÀÖ´Â ¼ýÀÚ ÀÌ¿Ü¿¡ ¼ýÀÚ¸¦ ÀûÀ» ¶§ ¾¸
 */

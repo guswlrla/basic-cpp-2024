@@ -4,6 +4,7 @@
 #include <iostream>
 
 using namespace std;
+
 int main()
 {
 	int sum = 0; // 누적된 변수의 값을 저장할 땐 변수 초기화

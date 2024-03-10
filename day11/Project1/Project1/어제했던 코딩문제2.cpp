@@ -57,7 +57,7 @@ public:
 
 int main()
 {
-	//Grade gradeAry[100]; // °´Ã¼ ¹è¿­
+	Grade gradeAry[100]; // °´Ã¼ ¹è¿­
 
 	int kosum, engsum, mathsum = 0;
 

@@ -31,16 +31,23 @@ class Product
 private:
 	int id;
 	int price;
-	char* producer;
+	string producer;
 public:
-	Product(const char* producer, int id, int price)
+	Product(const string& producer, int id, int price)
 	{
-		
+		this-> id = id;
+		this-> price = price;
+		this-> producer = producer;
 	}
 
 };
 class Book : public Product
 {
+private:
+	string ISBN;
+	string author;
+	string RAM;
+public:
 
 };
 class Handphone : public Product
@@ -49,39 +56,46 @@ class Handphone : public Product
 };
 class computer : public Product
 {
-
+	
 };
+
+void product_list();
 
 int main()
 {
 	Product* product[100];
 
-	int num;
+	int menu_num;
 
+	while(true) {
 	cout << "------상품관리 프로그램------" << endl;
-	cout << "1) 상품추가, 2) 상품출력, 3) 상품검색, 0) 종료 > " << endl;
-	if (num == 1)
-	{
+	cout << "1) 상품추가, 2) 상품출력, 3) 상품검색, 0) 종료 > ";
+	cin >> menu_num;
+
+	if (menu_num == 1) {
+		product_list();
+	}
+	else if (menu_num == 2) {
+		product_list();
+	}
+	else if (menu_num == 3) {
+		product_list();
+	}
+	else if (menu_num == 0) {
+		break;
+	}
+	else {
+		cout << "올바른 숫자를 입력하세요." << endl;
+		continue;
+	}
 
 	}
-	else if (num == 2)
-	{
-
-	}
-	else if (num == 3)
-	{
-
-	}
-	else if (num == 0)
-	{
-
-	}
-	else
-	{
-
-	}
-	cin >> num;
-
-
 	return 0;
+}
+
+void product_list() {
+	int product_num;
+	cout << "------상품선택 목록------" << endl;
+	cout << "1) 책, 2) 휴대폰, 3) 컴퓨터 > ";
+	cin >> product_num;
 }
