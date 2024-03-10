@@ -30,6 +30,6 @@ int main()
 }
 
 /* 정리
-  1. break : case에 break문 꼭 사용!!, break 없어지면 다음 case 출력값도 나옴
+  1. break : case에 break문 꼭 사용!!, break 없으면 다음 case 출력값도 나옴
   2. default : 위에 있는 숫자 이외에 숫자를 적을 때 씀
 */

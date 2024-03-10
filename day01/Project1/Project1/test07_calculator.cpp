@@ -8,23 +8,19 @@ using namespace std;
 
 int add(int a, int b) // 두 숫자의 합을 계산하는 함수
 {
-	result = a + b
-	return result;
+	return a + b;
 }
-int minus(int a, int b) // 두 숫자의 차를 계산하는 함수
+int subtract(int a, int b) // 두 숫자의 차를 계산하는 함수
 {
-	result = a - b
-	return result;
+	return a - b;
 }
 int multiply(int a, int b) // 두 숫자의 곱을 계산하는 함수
 {
-	result = a * b
-	return result;
+	return a * b;
 }
 float divide(int a, int b) // 두 숫자의 나눗셈을 계산하는 함수
 {
-	result = a / b
-	return result;
+	return a / b;
 }
 
 int main() {
@@ -46,20 +42,20 @@ int main() {
 
 	if (op == '+')
 	{
-		cout << add(num1, num2); << endl;
+		cout << add(num1, num2) << endl;
 	}
 	else if (op == '-')
 	{
-		cout << minus(num1, num2); << endl;
+		cout << subtract(num1, num2) << endl;
 
 	}
 	else if (op == 'x')
 	{
-		cout << multi(num1, num2); << endl;
+		cout << multiply(num1, num2) << endl;
 	}
 	else if (op == '/')
 	{
-		cout << divide(num1, num2); << endl;
+		cout << divide(num1, num2) << endl;
 
 	}
 
