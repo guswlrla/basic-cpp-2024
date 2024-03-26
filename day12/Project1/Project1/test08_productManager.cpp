@@ -21,6 +21,12 @@
   7. 파일분할(나중에 해도 됨)
 */
 
+/*
+ File : Prodect Manager.c
+ Created : 2024-03-06
+ Author : 김현지
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
