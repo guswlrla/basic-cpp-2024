@@ -20,49 +20,6 @@ int main() {
   return 0;
 }
 
-/*
-int main(void)
-{
-	int val1, val2; // 타입 같아서 가능
-	int result = 0; // 변수선언과 동시에 값을 대입 : 변수 초기화
-	std::cout << "두 개의 숫자입력 : ";
-	std::cin >> val1 >> val2;
-
-if (val1 < val2)
-{
-	for (int i = val1 + 1; i < val2; i++)
-		result += i;
-}
-else
-{
-	for (int i = val2 + 1; i < val1; i++)
-		result += i;
-}
-
-std::cout << "두 수 사이의 정수 합 : " << result << std::endl;
-return 0;
-}
-
-
-#include <iostream>
-
-int main(void) 
-{
-	char name[100];
-	char lang[200];
-
-	std::cout << "What is your name? => "; 
-	std::cin >> name;
-
-	std::cout << "좋아하는 Program => ";
-	std::cin >> lang;
-
-	std::cout << "My name is " << name << "입니다 \n";
-	std::cout << "좋아하는 Program is " << lang << "입니다" << std::endl;
-	return 0; // 프로그램의 정상 종료를 나타냄.
-}
-*/
-
 /* 정리
   1. 전역변수 : 소속되어 있지 않기에 모든 프로그램에서 사용가능
   2. 지역변수 : 선언 되어진 범위 안에서 사용 가능(static 영역에)
